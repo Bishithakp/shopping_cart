@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_cart/ui/login_page.dart';
 void main() {
-  print("Arun");
   runApp(const MyApp());
 }
 
