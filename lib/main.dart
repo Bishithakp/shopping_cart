@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:shopping_cart/registration.dart';
 import "package:http/http.dart" as http;
 import 'package:shopping_cart/ui/home_page.dart';
 
 import 'model/loginresponsemodel.dart';
+import 'ui/registration.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage(),
+      home: LoginScreen(),
     );
   }
 }
